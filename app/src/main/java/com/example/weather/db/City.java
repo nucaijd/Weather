@@ -1,5 +1,7 @@
 package com.example.weather.db;
 
+import org.litepal.crud.DataSupport;
+
 public class City extends DataSupport {
     private int id;   //每一个实体类都有一个id
     private String cityName;  //记录市名称
